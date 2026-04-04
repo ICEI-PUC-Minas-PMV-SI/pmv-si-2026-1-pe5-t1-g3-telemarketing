@@ -38,6 +38,8 @@ Após essa etapa, os dispositivos puderam localizar a rede configurada e se cone
 
 Dessa forma, a solução implementada no Packet Tracer atende ao funcionamento básico da rede sem fio, mas possui limitações em relação a uma estrutura corporativa mais completa. Além disso, houve contribuição na **organização da documentação do projeto**, auxiliando na estruturação e apresentação das informações desenvolvidas ao longo da atividade.
 
+
+
 André Mateus Fonseca Neves
 
 Nesta etapa do projeto, realizei as configurações de DHCP e DNS, definindo as rotas padrão para as estações de trabalho e utilizando os equipamentos previamente selecionados pelos demais integrantes. Uma funcionalidade testada, mas descartada para a versão final, foi a configuração de VLANs. Durante os testes, validamos que a versão utilizada do Cisco Packet Tracer não suportava adequadamente a segregação de rede via ACL (Listas de Controle de Acesso) para esse cenário; portanto, o uso de VLANs teria apenas fins organizacionais, já que a comunicação entre elas permaneceria aberta. Além disso, os nomes dos servidores das demais unidades foram configurados no DNS, permitindo a resolução de nomes e a conectividade entre a filial e a matriz.<br>
