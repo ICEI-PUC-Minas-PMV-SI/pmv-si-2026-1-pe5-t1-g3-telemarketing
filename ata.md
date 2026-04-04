@@ -6,3 +6,35 @@ LUINI DE FREITAS SALLES
 
    Ajudei com o desenvolvimento inicial do projeto, quais os serviços essenciais seriam usados, e como deveriam ser implementados no escopo do projeto. Fizemos a distribuição dos serviços entre os colegas, onde eu fiquei com os serviços de AD, Banco de Dados e rede WAN.
 Elaborei a parte explicativa sobre todos esses serviços e montei no Packet Tracer o modelo esquemático da rede WAN, com as configurações de IPs internos de cada rede, e comunicação entre os roteadores interligando as redes através de conexão via porta serial, usando o protocolo RIP.
+
+##SARAH CESAR MARTINS DOS SANTOS
+
+### Wi-Fi e CRM Server
+
+Na parte que desenvolvi no projeto, fiquei responsável pela implementação do **Wi-Fi** e pela representação do **CRM Server**. Em relação ao CRM Server, é importante destacar que **não é possível configurá-lo de forma funcional dentro do Packet Tracer**, já que essa ferramenta é voltada principalmente para simulação de infraestrutura de rede, e não para sistemas corporativos completos. Assim, o CRM Server não foi representado na topologia.
+
+Já a implementação do **Wi-Fi** foi realizada considerando a **topologia em árvore** adotada no projeto. Para isso, foi adicionado um **Access Point (AP-PT)** em cada switch de cada unidade da rede. Nesse contexto:
+
+- a **Port 0** do AP corresponde à interface **cabeada**, responsável pela ligação com o switch e pelo recebimento das informações que trafegam na rede local;
+- a **Port 1** corresponde à parte **wireless**, onde são definidas as configurações da rede sem fio.
+
+Em cada **Access Point** foram configurados os seguintes parâmetros:
+
+- **SSID** da rede sem fio;
+- **tipo de autenticação**;
+- **PSK Pass Phrase**;
+- **senha de acesso**.
+
+Para validar a conectividade Wi-Fi, foram adicionados **laptops e PCs para testes**. Para que esses dispositivos pudessem se conectar à rede sem fio, foi necessário:
+
+1. desligar os dispositivos;
+2. remover o módulo de rede original;
+3. instalar as interfaces adequadas:
+   - **WPC300N** nos laptops;
+   - **WMP300N** nos PCs.
+
+Após essa etapa, os dispositivos puderam localizar a rede configurada e se conectar por meio da opção **PC Wireless**, utilizando a senha definida no Access Point.
+
+> **Observação importante:** não é possível configurar, apenas com o **AP-PT**, dois tipos de acesso separados, como rede de **convidados** e rede **corporativa**. Para isso, seria necessário realizar uma segmentação lógica da rede por meio de **VLANs**, permitindo separar adequadamente os acessos de colaboradores e visitantes.
+
+Dessa forma, a solução implementada no Packet Tracer atende ao funcionamento básico da rede sem fio, mas possui limitações em relação a uma estrutura corporativa mais completa.
