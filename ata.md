@@ -7,9 +7,8 @@ LUINI DE FREITAS SALLES
    Ajudei com o desenvolvimento inicial do projeto, quais os serviços essenciais seriam usados, e como deveriam ser implementados no escopo do projeto. Fizemos a distribuição dos serviços entre os colegas, onde eu fiquei com os serviços de AD, Banco de Dados e rede WAN.
 Elaborei a parte explicativa sobre todos esses serviços e montei no Packet Tracer o modelo esquemático da rede WAN, com as configurações de IPs internos de cada rede, e comunicação entre os roteadores interligando as redes através de conexão via porta serial, usando o protocolo RIP.
 
-##SARAH CESAR MARTINS DOS SANTOS
-
-### Wi-Fi e CRM Server
+### SARAH CESAR MARTINS DOS SANTOS
+#### Wi-Fi e CRM Server
 
 Na parte que desenvolvi no projeto, fiquei responsável pela implementação do **Wi-Fi** e pela representação do **CRM Server**. Em relação ao CRM Server, é importante destacar que **não é possível configurá-lo de forma funcional dentro do Packet Tracer**, já que essa ferramenta é voltada principalmente para simulação de infraestrutura de rede, e não para sistemas corporativos completos. Assim, o CRM Server não foi representado na topologia.
 
