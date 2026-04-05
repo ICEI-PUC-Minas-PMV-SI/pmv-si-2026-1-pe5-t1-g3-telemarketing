@@ -38,7 +38,8 @@ Após essa etapa, os dispositivos puderam localizar a rede configurada e se cone
 
 Dessa forma, a solução implementada no Packet Tracer atende ao funcionamento básico da rede sem fio, mas possui limitações em relação a uma estrutura corporativa mais completa. Além disso, houve contribuição na **organização da documentação do projeto**, auxiliando na estruturação e apresentação das informações desenvolvidas ao longo da atividade.
 
-
-
 #### André Mateus Fonseca Neves
 Nesta etapa do projeto, realizei as configurações de DHCP e DNS, definindo as rotas padrão para as estações de trabalho e utilizando os equipamentos previamente selecionados pelos demais integrantes. Além disso, os nomes dos servidores das demais unidades foram configurados no DNS, permitindo a resolução de nomes e a conectividade entre a filial e a matriz. Alem disso tudo fiz a junção das outras partes do grupo.
+
+#### Pedro Henrique Fileti Kuhn
+Contribuí com o desenvolvimento inicial do projeto, elaborando o template base para o documento de Definição do Tema e Proposta Inicial em PDF. Realizei pesquisa sobre o funcionamento dos serviços de DNS e VPN no Cisco Packet Tracer e efetuei a configuração do serviço de DNS nos servidores de todas as unidades da rede — Matriz e Filiais 1, 2 e 3 — no arquivo de prototipação (.pkt) no simulador Cisco Packet Tracer. Por fim, documentei no relatório em PDF os registros configurados em cada servidor, bem como os procedimentos para teste e validação do funcionamento do serviço.
