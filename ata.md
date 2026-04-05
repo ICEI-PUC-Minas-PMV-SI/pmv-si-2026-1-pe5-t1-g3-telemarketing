@@ -1,7 +1,3 @@
-#### KELLY RODRIGUES BATISTA
-
-Na minha parte do projeto, desenvolvi os servidores, focando na configuração do Web Server e File Server. Fiz a configuração da VLAN de servidores na matriz, incluindo o Servidor Web Corporativo com portal interno e o Servidor Web Externo na DMZ para acesso público. Configurei também o Servidor de Arquivos/FTP com usuário de teste e autenticação básica, e o Servidor DNS com registros internos e externos. Todos os servidores foram conectados ao switch da matriz com endereços IP organizados e gateways configurados para roteamento inter-VLAN. Além disso, organizei a topologia da matriz isolada, documentando todos os IPs, VLANs e serviços, garantindo que a integração com as demais partes do projeto possa ser feita de forma clara e eficiente.
-
 #### LUINI DE FREITAS SALLES
 
    Ajudei com o desenvolvimento inicial do projeto, quais os serviços essenciais seriam usados, e como deveriam ser implementados no escopo do projeto. Fizemos a distribuição dos serviços entre os colegas, onde eu fiquei com os serviços de AD, Banco de Dados e rede WAN.
@@ -37,6 +33,10 @@ Após essa etapa, os dispositivos puderam localizar a rede configurada e se cone
 > **Observação importante:** não é possível configurar, apenas com o **AP-PT**, dois tipos de acesso separados, como rede de **convidados** e rede **corporativa**. Para isso, seria necessário realizar uma segmentação lógica da rede por meio de **VLANs**, permitindo separar adequadamente os acessos de colaboradores e visitantes.
 
 Dessa forma, a solução implementada no Packet Tracer atende ao funcionamento básico da rede sem fio, mas possui limitações em relação a uma estrutura corporativa mais completa. Além disso, houve contribuição na **organização da documentação do projeto**, auxiliando na estruturação e apresentação das informações desenvolvidas ao longo da atividade.
+
+#### KELLY RODRIGUES BATISTA
+
+Na minha parte do projeto, desenvolvi os servidores, focando na configuração do Web Server e File Server. Fiz a configuração da VLAN de servidores na matriz, incluindo o Servidor Web Corporativo com portal interno e o Servidor Web Externo na DMZ para acesso público. Configurei também o Servidor de Arquivos/FTP com usuário de teste e autenticação básica, e o Servidor DNS com registros internos e externos. Todos os servidores foram conectados ao switch da matriz com endereços IP organizados e gateways configurados para roteamento inter-VLAN. Além disso, organizei a topologia da matriz isolada, documentando todos os IPs, VLANs e serviços, garantindo que a integração com as demais partes do projeto possa ser feita de forma clara e eficiente.
 
 #### André Mateus Fonseca Neves
 Nesta etapa do projeto, realizei as configurações de DHCP e DNS, definindo as rotas padrão para as estações de trabalho e utilizando os equipamentos previamente selecionados pelos demais integrantes. Além disso, os nomes dos servidores das demais unidades foram configurados no DNS, permitindo a resolução de nomes e a conectividade entre a filial e a matriz. Alem disso tudo fiz a junção das outras partes do grupo.
